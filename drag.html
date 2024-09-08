@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag n Drop</title>
+    <link rel="stylesheet" href="./drag.css">
+</head>
+<body>
+    <h1>Drag and Drop</h1>
+    <section class="container">
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="./dark-nature.jpg" id="drag1" draggable="true" ondragstart="drag(event)">
+        </div>
+        
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+       
+    </section>
+    <script src="./drag.js"></script>
+</body>
+</html>

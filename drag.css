@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px darkolivegreen;
+    
+}
+#div1,#div2,#div3,#div4,#div5,#div6,#div7{
+    border: 2px dashed rgb(0, 0, 0);
+    border-radius: 6px;
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    cursor: move;
+    float: left;
+    transform: translate(25%,60%);
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #div1,#div2,#div3,#div4,#div5,#div6,#div7 {
+        width: 100px;
+        height: 150px;
+        margin: 5px;
+    }
+    #drag1{
+        height: 150px;
+        width: 100px;
+    }
+}
